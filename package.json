@@ -1,0 +1,35 @@
+{
+  "name": "langchain-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/anthropic": "^0.1.21",
+    "@langchain/community": "^0.2.0",
+    "@langchain/core": "^0.2.0",
+    "@langchain/google-genai": "^0.0.16",
+    "@langchain/openai": "^0.0.33",
+    "@langchain/weaviate": "^0.0.3",
+    "axios": "^1.7.1",
+    "cheerio": "^1.0.0-rc.12",
+    "chromadb": "^1.8.1",
+    "chromadb-default-embed": "^2.13.2",
+    "epub2": "^3.0.2",
+    "html-to-text": "^9.0.5",
+    "langchain": "^0.2.0",
+    "openai": "^4.47.1",
+    "pdf-parse": "^1.1.1",
+    "typescript": "^5.4.5",
+    "uuid": "^9.0.1",
+    "weaviate-client": "^2.14.5",
+    "weaviate-ts-client": "^2.2.0",
+    "zod": "^3.23.8"
+  }
+}
