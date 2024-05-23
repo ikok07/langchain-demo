@@ -16,11 +16,6 @@ const embeddingsModel = new OllamaEmbeddings({
     baseUrl: "http://localhost:11434",
 })
 
-const weaviateClient = weaviate.client({
-    scheme: "http",
-    host: "localhost:7070",
-})
-
 const main = async function main() {
 
     const loader = new CheerioWebBaseLoader("https://python.langchain.com/v0.2/docs/tutorials/qa_chat_history/")
